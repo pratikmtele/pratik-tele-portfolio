@@ -127,7 +127,7 @@
     margin-top: 7px;
     height: 140px;
     border-radius: 50%;
-    border-width: 1px;
+    border: none;
     background-color: var(--orange-btn);
     font-size: 20px;
     font-weight: 600;
@@ -137,6 +137,7 @@
 
 .form-row .sub-btn:hover {
     background-color: var(--bg-color);
+    border: 1px solid black;
 }
 
 @media  screen and (min-width: 769px) and (max-width: 1024px) {
