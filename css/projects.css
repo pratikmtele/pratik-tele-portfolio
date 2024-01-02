@@ -23,7 +23,7 @@
     animation: containerAnimation 1s;
 }
 
-.project-container h1{
+.project-container h1 {
     padding-top: 100px;
     width: 74%;
     margin: 10px auto;
@@ -59,12 +59,12 @@
 
 .content h4 {
     display: inline-block;
-    padding-bottom: 10px;
+    margin-bottom: 20px;
     padding-right: 10px;
     font-size: 16px;
 }
 
-.content span{
+.content span {
     font-size: 16px;
     font-weight: 300;
     margin-bottom: 20px;
@@ -75,7 +75,6 @@
 .content p {
     font-size: 16px;
     font-weight: 300;
-    margin-bottom: 20px;
     letter-spacing: 0.7px;
     line-height: 1.6rem;
 }
@@ -113,7 +112,7 @@
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
 
     .project-container {
         padding: 20px;
@@ -143,7 +142,7 @@
     }
 }
 
-@media screen and (max-width: 490px){
+@media screen and (max-width: 490px) {
     .project-content img {
         width: 100%;
         height: auto;
